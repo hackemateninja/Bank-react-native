@@ -12,7 +12,7 @@ const Color = {
 	red: '#FA7268',
 	blue: '#2F80ED',
 	lightBlue: '#94bcf3',
-}
+};
 
 const Font ={
 	xl: '24px',
@@ -22,11 +22,25 @@ const Font ={
 	medium: 500,
 	semiBold: 600,
 	bold: 700,
-}
+};
+const Icon = {
+	arrowleft: 'arrowleft',
+	caretright: 'caretright',
+	right: 'right'
+};
 
+const Radius = {
+	small: '4px',
+	medium: '8px',
+	big: '10px',
+	XBig: '20px',
+	XLBig: '25px',
+};
 
 const Styles ={
 	colors: Color,
-	fonts: Font
-}
+	fonts: Font,
+	icons: Icon,
+	radius: Radius,
+};
 export default Styles;

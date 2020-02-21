@@ -1,16 +1,17 @@
 import React from 'react';
-import LayoutComponent from "../../components/layout/LayoutComponent";
-import {Text} from "react-native";
-import HeaderComponent from "../../components/common_components/headers/HeaderComponent";
+import Layout from "../../components/layout/Layout";
+
+import Header from "../../components/common_components/headers/Header";
+import Text from "../../components/common_components/text/Text";
+import Styles from "../../utils/styles";
+import Button from "../../components/common_components/buttons/Button";
 
 const PaymentScreen = ()=> {
 	return (
-		<LayoutComponent>
-			<HeaderComponent/>
-			<Text style={{color: 'red', textAlign: 'center'}}>
-				{"hola mundo"}
-			</Text>
-		</LayoutComponent>
+		<Layout>
+			<Header/>
+			<Button title="Hola mundo mano"/>
+		</Layout>
 	);
 }
 export default PaymentScreen;
