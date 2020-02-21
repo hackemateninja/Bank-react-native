@@ -1,9 +1,3 @@
-
-export default Styles={
-	colors: Color,
-	fonts: Font
-}
-
 const Color = {
 	bg: '#F2F2F2',
 	white: '#FFF',
@@ -29,3 +23,10 @@ const Font ={
 	semiBold: 600,
 	bold: 700,
 }
+
+
+const Styles ={
+	colors: Color,
+	fonts: Font
+}
+export default Styles;
