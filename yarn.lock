@@ -4240,6 +4240,25 @@ react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
+react-native-iphone-x-helper@^1.2.0:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.2.1.tgz#645e2ffbbb49e80844bb4cbbe34a126fda1e6772"
+  integrity sha512-/VbpIEp8tSNNHIvstuA3Swx610whci1Zpc9mqNkqn14DkMbw+ORviln2u0XyHG1kPvvwTNGZY6QpeFwxYaSdbQ==
+
+react-native-nested-scroll-view@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-nested-scroll-view/-/react-native-nested-scroll-view-8.0.0.tgz#44870b48149ad1482ae0c487f0921811ae195a8f"
+  integrity sha512-Dhn/0D6xk3E2O4i5+szT0XSsU8Uhwb1B1dtu3ZHtSDjlS7cxnbPqmxdSp+KnsRGrYCmdVP/RaSpLEn46T7VyBA==
+
+react-native-sticky-parallax-header@^0.0.59:
+  version "0.0.59"
+  resolved "https://registry.yarnpkg.com/react-native-sticky-parallax-header/-/react-native-sticky-parallax-header-0.0.59.tgz#a9a0ea1286c168e60fc31221ee6958983551cbff"
+  integrity sha512-TbJW23HktPoPFdm3MvQ2bn/4tr60Z/ZaUixjolj+oQujOcw3FGfD+XMbq+4JdT+sFmjHeRD17ep2+uhYmS54sA==
+  dependencies:
+    prop-types "^15.7.2"
+    react-native-iphone-x-helper "^1.2.0"
+    react-native-nested-scroll-view "^8.0.0"
+
 react-native-view-shot@3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/react-native-view-shot/-/react-native-view-shot-3.0.2.tgz#daccaec5b8038a680b17533ff7e72876e68c7d0d"

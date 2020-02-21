@@ -8,14 +8,14 @@ export const CenterStyle = styled.View`
 
 export const RowStyle = styled.View`
 	display: flex;
-	align-items: center;
+	align-items:flex-start;
 	justify-content: space-between;
 	flex-direction: row;
 `;
 
 export const ColumnStyle = styled.View`
 	display: flex;
-	align-items: center;
+	align-items:flex-start;
 	justify-content: space-between;
 	flex-direction: column;
 `;
