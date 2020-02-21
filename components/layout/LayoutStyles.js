@@ -6,4 +6,11 @@ export const LayoutStyle = styled.View`
 	background: ${Styles.colors.bg};
 	align-content: center;
 	justify-content: center;
+`;
+
+export const LayoutWhiteStyle = styled.View`
+	flex: 1;
+	background: ${Styles.colors.white};
+	align-content: center;
+	justify-content: center;
 `

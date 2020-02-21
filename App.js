@@ -1,6 +1,5 @@
 import React from 'react';
-import * as Font from "expo-font";
-import PaymentScreen from "./screens/payment_screen/PaymentScreen";
+import PaymentScreen from "./screens/payments/payment/PaymentScreen";
 
 
 const App = ()=> {
