@@ -21,6 +21,6 @@ export const ColumnStyle = styled.View`
 `;
 
 export const ContainerStyle = styled.View`
-	padding: 16px;
+	padding: 0 16px 16px 16px;
 	width: 100%;
 `;
