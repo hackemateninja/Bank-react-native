@@ -1,11 +1,10 @@
 import React from 'react';
-import * as Font from "expo-font";
-import PaymentScreen from "./screens/payment_screen/PaymentScreen";
+import PaymentServicesScreen from "./screens/payment_services/PaymentServicesScreen";
 
 
 const App = ()=> {
   return(
-    <PaymentScreen/>
+    <PaymentServicesScreen/>
   );
 }
 
