@@ -1,17 +1,15 @@
 import React from 'react';
-import {ButtonDisableStyle, ButtonStyle} from "./ButtonsStyle";
+import {ButtonContainer, ButtonDisableStyle, ButtonStyle} from "./ButtonsStyle";
 import Text from '../text/Text';
 import Styles from "../../../utils/styles";
 import Center from "../containers/Center";
-import Container from "../containers/Container";
-import isDisabled from "react-native-web/dist/modules/AccessibilityUtil/isDisabled";
 
 const Button = ({title, disabled})=>{
 
 	if (!disabled){
 		return (
-			<Container>
-				<ButtonStyle>
+			<ButtonContainer>
+				<ButtonStyle elevation={5} >
 					<Center>
 						<Text
 							type="subtitle"
@@ -20,12 +18,12 @@ const Button = ({title, disabled})=>{
 						/>
 					</Center>
 				</ButtonStyle>
-			</Container>
+			</ButtonContainer>
 		)
 	}else {
 		return (
-			<Container>
-				<ButtonDisableStyle>
+			<ButtonContainer>
+				<ButtonDisableStyle elevation={5}>
 					<Center>
 						<Text
 							type="subtitle"
@@ -34,7 +32,7 @@ const Button = ({title, disabled})=>{
 						/>
 					</Center>
 				</ButtonDisableStyle>
-			</Container>
+			</ButtonContainer>
 		)
 	}
 };
