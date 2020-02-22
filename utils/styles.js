@@ -39,18 +39,10 @@ const Radius = {
 	XLBig: '25px',
 };
 
-const Image = {
-	light: '../assets/img/Light.png',
-	phone: '../assets/img/phone.png',
-	water: '../assets/img/water.png',
-	wifi: '../assets/img/wifi.png',
-}
-
 const Styles ={
 	colors: Color,
 	fonts: Font,
 	icons: Icon,
 	radius: Radius,
-	images: Image,
 };
 export default Styles;

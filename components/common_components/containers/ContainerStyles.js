@@ -15,7 +15,7 @@ export const RowStyle = styled.View`
 
 export const ColumnStyle = styled.View`
 	display: flex;
-	align-items:flex-start;
+	align-items:center;
 	justify-content: space-between;
 	flex-direction: column;
 `;

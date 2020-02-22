@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from "../../../components/common_components/headers/Header";
-import Layout from "../../../components/layout/Layout";
+import Header from "../../components/common_components/headers/Header";
+import Layout from "../../components/layout/Layout";
 
 const PaymentScreen = ()=> {
 	return (
