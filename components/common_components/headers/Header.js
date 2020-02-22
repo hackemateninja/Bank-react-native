@@ -9,7 +9,10 @@ const Header = ({title})=> {
 
 	return (
 		<HeaderStyle>
-			<IconButton />
+			<IconButton
+				size={26}
+				icon={Styles.icons.arrowleft}
+			/>
 			<Text
 				type="title"
 				color={Styles.colors.dark}

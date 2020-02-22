@@ -3,13 +3,13 @@ import { AntDesign } from '@expo/vector-icons';
 import Styles from "../../../utils/styles";
 import {IconButtonStyle} from "./ButtonsStyle";
 
-const IconButton = ({onPress})=>{
+const IconButton = ({icon, size, onPress})=>{
 
 	return (
 		<IconButtonStyle>
 			<AntDesign
-				name={Styles.icons.arrowleft}
-				size={26}
+				name={icon}
+				size={size}
 				color={Styles.colors.dark}
 			/>
 		</IconButtonStyle>

@@ -9,7 +9,7 @@ const Button = ({title, disabled})=>{
 	if (!disabled){
 		return (
 			<ButtonContainer>
-				<ButtonStyle elevation={5} >
+				<ButtonStyle>
 					<Center>
 						<Text
 							type="subtitle"
@@ -23,7 +23,7 @@ const Button = ({title, disabled})=>{
 	}else {
 		return (
 			<ButtonContainer>
-				<ButtonDisableStyle elevation={5}>
+				<ButtonDisableStyle>
 					<Center>
 						<Text
 							type="subtitle"

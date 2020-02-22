@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Color = {
 	bg: '#F2F2F2',
 	white: '#FFF',

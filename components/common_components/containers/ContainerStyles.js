@@ -8,7 +8,7 @@ export const CenterStyle = styled.View`
 
 export const RowStyle = styled.View`
 	display: flex;
-	align-items:flex-start;
+	align-items:center;
 	justify-content: space-between;
 	flex-direction: row;
 `;

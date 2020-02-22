@@ -14,9 +14,10 @@ export const ButtonStyle = styled.View`
 	border-radius: ${Styles.radius.XLBig};
 	background: ${Styles.colors.blue};
 	padding-vertical: 16px;
-	shadow-color: ${Styles.colors.dark};
+	shadow-color: ${Styles.colors.light};
 	shadow-radius: 10px;
-	shadow-opacity: 0.8;
+	shadow-opacity: 0.5;
+	elevation: ${5};
 `;
 export const ButtonDisableStyle = styled.View`
 	width: 100%;
@@ -24,9 +25,10 @@ export const ButtonDisableStyle = styled.View`
 	border-radius: ${Styles.radius.XLBig};
 	background: ${Styles.colors.lightBlue};
 	padding-vertical: 16px;
-	shadow-color: ${Styles.colors.dark};
+	shadow-color: ${Styles.colors.light};
 	shadow-radius: 10px;
-	shadow-opacity: 0.8;
+	shadow-opacity: 0.5;
+	elevation: ${5};
 `;
 export const IconButtonStyle = styled.TouchableOpacity`
 	padding: 0;
