@@ -1,10 +1,10 @@
 import React from 'react';
-import PaymentServicesScreen from "./screens/payment_services/PaymentServicesScreen";
+import PaymentReferenceScreen from "./screens/PaymentReference/PaymentReferenceScreen";
 
 
 const App = ()=> {
   return(
-    <PaymentServicesScreen/>
+    <PaymentReferenceScreen/>
   );
 }
 

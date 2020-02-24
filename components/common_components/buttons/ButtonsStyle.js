@@ -8,7 +8,7 @@ export const ButtonContainer = styled.View`
 	padding-horizontal: 16px;
 `;
 
-export const ButtonStyle = styled.View`
+export const ButtonStyle = styled.TouchableOpacity`
 	width: 100%;
 	height: 50px;
 	border-radius: ${Styles.radius.XLBig};
